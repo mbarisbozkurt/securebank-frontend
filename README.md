@@ -52,6 +52,18 @@ It can be changed with:
 VITE_API_BASE_URL=http://localhost:8081
 ```
 
+Production uses:
+
+```text
+VITE_API_BASE_URL=https://api-63-180-21-244.nip.io
+```
+
+Live frontend:
+
+```text
+https://d1zrdkm958a5xk.cloudfront.net
+```
+
 Start the backend stack from the backend repository:
 
 ```powershell
