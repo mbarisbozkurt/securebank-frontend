@@ -4,6 +4,12 @@ SecureBank Frontend is a React + TypeScript application for the SecureBank banki
 
 It connects to the Spring Boot backend and provides the customer and admin user interface for accounts, transfers, saved recipients, transaction history, receipts, and audit/admin views.
 
+Live frontend:
+
+```text
+https://d1zrdkm958a5xk.cloudfront.net
+```
+
 ## Tech Stack
 
 - React
@@ -59,12 +65,6 @@ VITE_API_BASE_URL=https://api-63-180-21-244.nip.io
 ```
 
 The API base URL is not opened directly by users. It is called by the frontend, and protected endpoints return `401 Unauthorized` without a valid session.
-
-Live frontend:
-
-```text
-https://d1zrdkm958a5xk.cloudfront.net
-```
 
 Start the backend stack from the backend repository:
 
