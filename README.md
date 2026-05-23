@@ -52,11 +52,13 @@ It can be changed with:
 VITE_API_BASE_URL=http://localhost:8081
 ```
 
-Production uses:
+Production uses this API base URL:
 
 ```text
 VITE_API_BASE_URL=https://api-63-180-21-244.nip.io
 ```
+
+The API base URL is not opened directly by users. It is called by the frontend, and protected endpoints return `401 Unauthorized` without a valid session.
 
 Live frontend:
 
